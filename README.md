@@ -9,7 +9,8 @@ This repository contains the build of DWM that I use on my desktop. It
 contains the following patches from https://dwm.suckless.org/patches/,
 modified as necessary to work together nicely:
 
- * (no patches yet)
+ * actualfullscreen (Add a real fullscreen mode instead of just the
+                     monocle layout; toggle with Mod4-F.)
 
 The original patches are in the patches directory.
 
