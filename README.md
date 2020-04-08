@@ -11,6 +11,7 @@ modified as necessary to work together nicely:
 
  * actualfullscreen (Add a real fullscreen mode instead of just the
                      monocle layout; toggle with Mod4-F.)
+ * gridmode     (Add a grid layout. Select with Mod4-G.)
  * notitle      (Do not show client window title in the bar.)
  * pertag       (Keep layout and other properties per tag instead of global.)
  * systray      (Add a system tray in the bar for applications that put icons
