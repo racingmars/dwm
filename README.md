@@ -12,6 +12,9 @@ modified as necessary to work together nicely:
  * actualfullscreen (Add a real fullscreen mode instead of just the
                      monocle layout; toggle with Mod4-F.)
  * pertag       (Keep layout and other properties per tag instead of global.)
+ * vanitygaps   (Add gaps around windows. _Note_: all dynamic gap size
+                 modification functions except togglegaps are removed.
+		 togglegaps is invoked with Mod4-Ctrl-0.)
 
 The original patches are in the patches directory.
 
