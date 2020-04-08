@@ -2,6 +2,26 @@ dwm - dynamic window manager
 ============================
 dwm is an extremely fast, small, and dynamic window manager for X.
 
+Matthew's DWM Customizations
+----------------------------
+
+This repository contains the build of DWM that I use on my desktop. It
+contains the following patches from https://dwm.suckless.org/patches/,
+modified as necessary to work together nicely:
+
+ * (no patches yet)
+
+The original patches are in the patches directory.
+
+Additionally, this repository contains my own configuration (in config.h; the
+config.h.def file is maintained as the defaults as modified by each patch).
+
+The dwm.1 man page isn't modified to reflect the customizations: you may read
+it for a general idea of how dwm works, but the definitive source of key
+bindings is the `config.h` file in this repository.
+
+The remainder of this readme is the original dwm readme.
+
 
 Requirements
 ------------
