@@ -11,6 +11,7 @@ modified as necessary to work together nicely:
 
  * actualfullscreen (Add a real fullscreen mode instead of just the
                      monocle layout; toggle with Mod4-F.)
+ * pertag       (Keep layout and other properties per tag instead of global.)
 
 The original patches are in the patches directory.
 
