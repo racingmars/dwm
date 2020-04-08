@@ -11,6 +11,8 @@ modified as necessary to work together nicely:
 
  * actualfullscreen (Add a real fullscreen mode instead of just the
                      monocle layout; toggle with Mod4-F.)
+ * attachbelow  (Attach new clients below the selected client instead of
+                 becoming the new master.)
  * gridmode     (Add a grid layout. Select with Mod4-G.)
  * notitle      (Do not show client window title in the bar.)
  * pertag       (Keep layout and other properties per tag instead of global.)
