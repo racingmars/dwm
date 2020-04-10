@@ -117,6 +117,7 @@ static Key keys[] = {
 	{ 0,                            XF86XK_AudioMute,   spawn, SHCMD("pulsemixer --toggle-mute") },
 	{ 0,                            XF86XK_Forward,     spawn, SHCMD("mpc next") },
 	{ 0,                            XF86XK_Back,        spawn, SHCMD("mpc prev") },	
+	{ 0,                            XF86XK_Calculator,  spawn, SHCMD("free42") },
 };
 
 /* button definitions */
