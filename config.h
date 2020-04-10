@@ -113,10 +113,10 @@ static Key keys[] = {
 	{ MODKEY|ShiftMask,             XK_v,      spawn,          SHCMD("start-record") },
         { MODKEY,                       XK_v,      spawn,          SHCMD("stop-record") },
 	{ MODKEY,                       XK_grave,  spawn,          SHCMD("dmenuunicode") },
-	{ 0,                            XF86XK_AudioPlay,   spawn, SHCMD("mpc toggle") },
+	{ 0,                            XF86XK_AudioPlay,   spawn, SHCMD("mrw-media.sh toggleplay") },
 	{ 0,                            XF86XK_AudioMute,   spawn, SHCMD("pulsemixer --toggle-mute") },
-	{ 0,                            XF86XK_Forward,     spawn, SHCMD("mpc next") },
-	{ 0,                            XF86XK_Back,        spawn, SHCMD("mpc prev") },	
+	{ 0,                            XF86XK_Forward,     spawn, SHCMD("mrw-media.sh next") },
+	{ 0,                            XF86XK_Back,        spawn, SHCMD("mrw-media.sh prev") },	
 	{ 0,                            XF86XK_Calculator,  spawn, SHCMD("free42") },
 };
 
