@@ -16,6 +16,8 @@ modified as necessary to work together nicely:
  * gridmode     (Add a grid layout. Select with Mod4-G.)
  * notitle      (Do not show client window title in the bar.)
  * pertag       (Keep layout and other properties per tag instead of global.)
+ * statusallmons (Modified. Draws statusbar on all monitors, not just the
+                  selected monitor.)
  * systray      (Add a system tray in the bar for applications that put icons
                  there.)
  * vanitygaps   (Add gaps around windows. _Note_: all dynamic gap size
