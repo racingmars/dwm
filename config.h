@@ -114,6 +114,7 @@ static Key keys[] = {
         { MODKEY,                       XK_v,      spawn,          SHCMD("stop-record") },
 	{ MODKEY,                       XK_grave,  spawn,          SHCMD("dmenuunicode") },
 	{ MODKEY,                       XK_m,      spawn,          SHCMD("mpdmenu :: -i -l 10") },
+	{ MODKEY,                       XK_z,      spawn,          SHCMD("xidlehook-client --socket /tmp/xidlesock control --action Trigger") },
 	{ 0,                            XF86XK_AudioPlay,   spawn, SHCMD("mrw-media.sh toggleplay") },
 	{ 0,                            XF86XK_AudioMute,   spawn, SHCMD("pulsemixer --toggle-mute") },
 	{ 0,                            XF86XK_Forward,     spawn, SHCMD("mrw-media.sh next") },
