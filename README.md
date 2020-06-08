@@ -26,6 +26,9 @@ modified as necessary to work together nicely:
 
 The original patches are in the patches directory.
 
+This build requires a build of libxft that includes the bgra bug fix (e.g.
+libxft-bgra from the AUR).
+
 Additionally, this repository contains my own configuration (in config.h; the
 config.h.def file is maintained as the defaults as modified by each patch).
 
