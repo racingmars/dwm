@@ -123,8 +123,8 @@ static Key keys[] = {
 	{ MODKEY,                       XK_z,      spawn,          SHCMD("xidlehook-client --socket /tmp/xidlesock control --action Trigger") },
 	{ 0,                            XF86XK_AudioPlay,   spawn, SHCMD("mrw-media.sh toggleplay") },
 	{ 0,                            XF86XK_AudioMute,   spawn, SHCMD("pulsemixer --toggle-mute") },
-	{ 0,                            XF86XK_Forward,     spawn, SHCMD("mrw-media.sh next") },
-	{ 0,                            XF86XK_Back,        spawn, SHCMD("mrw-media.sh prev") },	
+	{ 0,                            XF86XK_AudioNext,   spawn, SHCMD("mrw-media.sh next") },
+	{ 0,                            XF86XK_AudioPrev,   spawn, SHCMD("mrw-media.sh prev") },	
 	{ 0,                            XF86XK_Calculator,  spawn, SHCMD("free42") },
 };
 
