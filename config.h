@@ -41,6 +41,8 @@ static const Rule rules[] = {
 	{ "Alacritty", NULL,   NULL,           0,         0,          1,          -1,        -1 },
 	{ "urxvt",   NULL,     NULL,           0,         0,          1,          -1,        -1 },
 	{ NULL,      NULL,     "Event Tester", 0,         1,          0,           1,        -1 }, /* xev */
+	{ "Remote-viewer", NULL, NULL,         0,         1,          0,           1,        -1 }, /* remote-viewer */
+	{ "pcsws.exe", NULL,   NULL,           0,         1,          0,           1,        -1 }, /* PCOMM in wine */
 };
 
 /* layout(s) */
