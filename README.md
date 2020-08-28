@@ -18,7 +18,7 @@ modified as necessary to work together nicely:
  * pertag       (Keep layout and other properties per tag instead of global.)
  * statusallmons (Modified. Draws statusbar on all monitors, not just the
                   selected monitor.)
- * swallow      (Designate certain window classes as "terminal" and habe those
+ * swallow      (Designate certain window classes as "terminal" and have those
                  windows "swallow" launched subprocesses.)
  * systray      (Add a system tray in the bar for applications that put icons
                  there.)
