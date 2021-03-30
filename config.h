@@ -78,6 +78,7 @@ static const char *dmenucmd[] = { "dmenu_run", "-m", dmenumon, "-fn", dmenufont,
 static const char *termcmd[]  = { "xterm", NULL };
 static const char *webcmd[]   = { "firefox", NULL };
 static const char *altwebcmd[]= { "chromium", NULL };
+static const char *workwebcmd[] = { "chromium", "--user-data-dir=/home/mwilson/.config/chromium-sf", NULL };
 
 #include <X11/XF86keysym.h>
 static Key keys[] = {
@@ -86,6 +87,7 @@ static Key keys[] = {
 	{ MODKEY,                       XK_Return, spawn,          {.v = termcmd } },
 	{ MODKEY,                       XK_w,      spawn,          {.v = webcmd } },
 	{ MODKEY|ShiftMask,             XK_w,      spawn,          {.v = altwebcmd } },
+	{ MODKEY|ControlMask,           XK_w,      spawn,          {.v = workwebcmd } },
 	{ MODKEY,                       XK_b,      togglebar,      {0} },
 	{ MODKEY,                       XK_j,      focusstack,     {.i = +1 } },
 	{ MODKEY,                       XK_k,      focusstack,     {.i = -1 } },
