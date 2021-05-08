@@ -37,8 +37,6 @@ static const Rule rules[] = {
 	 *	WM_NAME(STRING) = title
 	 */
 	/* class     instance  title           tags mask  isfloating  isterminal  noswallow  monitor */
-	{ "st",      NULL,     NULL,           0,         0,          1,          -1,        -1 },
-	{ "Alacritty", NULL,   NULL,           0,         0,          1,          -1,        -1 },
 	{ "urxvt",   NULL,     NULL,           0,         0,          1,          -1,        -1 },
 	{ "XTerm",   NULL,     NULL,           0,         0,          1,           1,        -1 },
 	{ NULL,      NULL,     "Event Tester", 0,         1,          0,           1,        -1 }, /* xev */
@@ -126,11 +124,10 @@ static Key keys[] = {
 	{ MODKEY,                       XK_grave,  spawn,          SHCMD("dmenuunicode") },
 	{ MODKEY,                       XK_m,      spawn,          SHCMD("mpdmenu :: -i -l 10") },
 	{ MODKEY,                       XK_z,      spawn,          SHCMD("xidlehook-client --socket /tmp/xidlesock control --action Trigger") },
-	{ 0,                            XF86XK_AudioPlay,   spawn, SHCMD("mrw-media.sh toggleplay") },
-	{ 0,                            XF86XK_AudioMute,   spawn, SHCMD("pulsemixer --toggle-mute") },
-	{ 0,                            XF86XK_AudioNext,   spawn, SHCMD("mrw-media.sh next") },
-	{ 0,                            XF86XK_AudioPrev,   spawn, SHCMD("mrw-media.sh prev") },	
-	{ 0,                            XF86XK_Calculator,  spawn, SHCMD("free42") },
+	{ ControlMask,                  XK_F2,     spawn,          SHCMD("mrw-media.sh toggleplay") },
+	{ ControlMask|ShiftMask,        XK_F2,     spawn,          SHCMD("mrw-media.sh next") },
+	{ ControlMask|ShiftMask|Mod1Mask, XK_F2,     spawn,          SHCMD("mrw-media.sh prev") },	
+	{ MODKEY,                       XK_c,      spawn,          SHCMD("free42") },
 };
 
 /* button definitions */
